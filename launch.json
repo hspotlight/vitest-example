@@ -1,0 +1,17 @@
+// .vscode/launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debug Vitest via CLI",
+        "runtimeExecutable": "pnpm",
+        "args": ["vitest", "run", "--threads=false", "--passWithNoTests"],
+        "console": "integratedTerminal",
+        "autoAttachChildProcesses": true,
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+  }
+  
